@@ -83,7 +83,6 @@ Clique sur Créer.
 Dans appsettings.json, configure la chaîne de connexion à SQL Server :
 
 ```json
-Copier le code
 {
   "ConnectionStrings": {
     "BeehiveDB": "Server=localhost;Database=BeehiveDB;Trusted_Connection=True;"
