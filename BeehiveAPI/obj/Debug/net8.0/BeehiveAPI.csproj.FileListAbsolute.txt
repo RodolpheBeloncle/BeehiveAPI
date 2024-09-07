@@ -134,3 +134,4 @@ C:\Users\33647\source\repos\BeehiveAPI\BeehiveAPI\obj\Debug\net8.0\refint\Beehiv
 C:\Users\33647\source\repos\BeehiveAPI\BeehiveAPI\obj\Debug\net8.0\BeehiveAPI.pdb
 C:\Users\33647\source\repos\BeehiveAPI\BeehiveAPI\obj\Debug\net8.0\BeehiveAPI.genruntimeconfig.cache
 C:\Users\33647\source\repos\BeehiveAPI\BeehiveAPI\obj\Debug\net8.0\ref\BeehiveAPI.dll
+C:\Users\33647\source\repos\BeehiveAPI\BeehiveAPI\obj\Debug\net8.0\BeehiveAPI.sourcelink.json

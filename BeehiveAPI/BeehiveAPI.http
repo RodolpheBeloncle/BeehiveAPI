@@ -1,6 +1,37 @@
 @BeehiveAPI_HostAddress = http://localhost:5299
 
-GET {{BeehiveAPI_HostAddress}}/weatherforecast/
-Accept: application/json
+### Get all beehives
+GET http://localhost:5299/api/Beehive
 
-###
+### Create a new beehive
+POST http://localhost:5299/api/Beehive
+Content-Type: application/json
+
+{
+  "location": "New Test Location"
+}
+
+### Get sensor data for a specific beehive (replace {beehiveId} with an actual ID)
+GET http://localhost:5299/api/Sensor/1
+
+### Record new sensor data
+POST http://localhost:5299/api/Sensor
+Content-Type: application/json
+
+{
+  "beehiveId": 1,
+  "sensorType": "Temperature",
+  "value": 25.5
+}
+
+### Update a beehive (if you implement this endpoint)
+PUT http://localhost:5299/api/Beehive/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "location": "Updated Location"
+}
+
+### Delete a beehive (if you implement this endpoint)
+DELETE http://localhost:5299/api/Beehive/1
