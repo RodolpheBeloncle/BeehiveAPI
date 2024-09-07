@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "BeehiveAPI.Controllers.BeehiveController",
+    "Method": "GetBeehives",
+    "RelativePath": "api/Beehive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BeehiveAPI.Controllers.BeehiveController",
+    "Method": "CreateBeehive",
+    "RelativePath": "api/Beehive",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "beehive",
+        "Type": "BeehiveAPI.Models.Beehive",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BeehiveAPI.Controllers.SensorController",
+    "Method": "RecordSensorData",
+    "RelativePath": "api/Sensor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sensor",
+        "Type": "BeehiveAPI.Models.Sensor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BeehiveAPI.Controllers.SensorController",
+    "Method": "GetSensorData",
+    "RelativePath": "api/Sensor/{beehiveId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "beehiveId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BeehiveAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BeehiveAPI.WeatherForecast, BeehiveAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
